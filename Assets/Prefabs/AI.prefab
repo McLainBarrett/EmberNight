@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &954641004763390806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380388479644737733}
+  - component: {fileID: 8982818127328286382}
+  - component: {fileID: 2534465666526794015}
+  m_Layer: 0
+  m_Name: AI
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &380388479644737733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954641004763390806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -40.05639, y: -4.0283136, z: -0.3203125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8982818127328286382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954641004763390806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e3527ec0e5e1e4384e9885db6f441b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensitivity: 0
+  Deadzone: 0
+  AI: 1
+  team: 0
+  direction: 0
+  thrust: 0
+  fire: 0
+  input: 
+  mounted: 0
+  BodyID: -1
+  HealthRT: 0
+  coolDown: 0
+  score: 0
+  time: 9999
+  playerName: 
+  scoreBoard: 
+--- !u!114 &2534465666526794015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954641004763390806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbe4b0654dfa6a4ea1cff67028ff1e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isServerSide: 1
+  GameBody: {fileID: 3616037513397797665, guid: 4cfca84916806f149baa4742dc56b570,
+    type: 3}
+  Body: {fileID: 0}
+  HealthRT: 0
+  coolDown: 0
+  score: 0
+  team: 0
+  clientName: 
+  HostPlayer: {fileID: 8982818127328286382}
+  Communicating: 0
+  time: 0
+  ScoreBoard: 
+  Trys: 3

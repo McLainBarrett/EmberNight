@@ -1,0 +1,52 @@
+Notepad:
+? -Phone can't see servers
+? Most of the time
+? Bump up wait time for ping
+
+
+-Stutter is back
+Only when on hotspot
+Position vectors themselves jump around
+Cooldown freezes, but doen't go backwards
+Frames are being missed, 2-13
+Seperate Sending/Recieving?
+
+
+---
+Better homing on bullets
+	Cone projected outward to velocity norm
+	Adjusts vel to hit targ
+Single player
+	Doesn't host game
+	Able to set imbalanced # of bots per team
+Switch team colors to green and yellow
+Better bots
+	CQC mode
+	Dodging
+Fix stutter
+Change fail to victornot
+
+-Sign app
+Offical Release
+
+
+
+---Never
+Restrict names, can't use symbols that break things (), [], {}, \, *
+Different Weapons, unlock at lifetime damage milestones
+-Selected at respawn screen
+	Cannon - Square
+	Machine Guns - Circle - Higher rps | less damage, range, accuracy, and homing
+	Missiles - Triangle -  Greater tracking | reqires lock on
+	Laser - Line - No bullet time | Damage falloff, no homing; Continuous damage
+
+	//Frigate - Dual cannon - Higher firepower, health | Slow/unagile, large target
+	//Unique control scheme, joystick for turrets, compass for turning
+
+AI modes for each weapon
+Random variation in behavior
+
+---After that
+Universal Connection Manager
+New class/struct for sync type
+UCM gets all fields of class, sends values to string, seperates by specific character

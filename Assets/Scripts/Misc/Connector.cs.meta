@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df21b12993796d6478211f514b0b45c1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - server: {instanceID: 0}
+  - client: {instanceID: 0}
+  - ClientGhost: {fileID: 5948206734130118310, guid: e2e58b83e3f9c7e4f90ab5d345457aed,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

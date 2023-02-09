@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0a849980d1a563042a06b55765654b3d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Arrow: {fileID: 3271342751530532247, guid: 5b74a57d32748544a8f3816826e887ac, type: 3}
+  - SR: {instanceID: 0}
+  - Arrowsprite: {instanceID: 0}
+  - player: {instanceID: 0}
+  - prb: {instanceID: 0}
+  - srb: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
